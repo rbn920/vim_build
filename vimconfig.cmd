@@ -18,9 +18,9 @@ set OPTIMIZE=SPEED
 set PYTHON=C:\Miniconda3\envs\py27
 set DYNAMIC_PYTHON=yes
 set PYTHON_VER=27
-set PYTHON3=C:\Miniconda3\envs\py35
+set PYTHON3=C:\Miniconda3\envs\py36
 set DYNAMIC_PYTHON3=yes
-set PYTHON3_VER=35
+set PYTHON3_VER=36
 
 echo "Configuring Visual Studio..."
 call %VS_DIR%\VC\vcvarsall.bat %TOOLCHAIN%
